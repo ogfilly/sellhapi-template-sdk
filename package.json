@@ -1,0 +1,25 @@
+{
+  "name": "@sellhapi/template-sdk",
+  "version": "0.1.0",
+  "description": "Official SellHapi storefront template SDK",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": "[\"sellhapi\",\"template\",\"storefront\",\"ecommerce\"]",
+  "author": "SellHapi",
+  "license": "MIT",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}

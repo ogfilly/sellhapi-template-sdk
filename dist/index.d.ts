@@ -1,0 +1,8 @@
+export type { TemplateProps, TemplateDefinition, TemplateConstraints, StoreProduct, StoreCategory, StoreCollection, StoreSection, AutoBlock, StoreAnnouncement, FooterLink, } from "./types/template.js";
+export type { StorefrontConfig } from "./types/config.js";
+export { DEFAULT_CONFIG } from "./types/config.js";
+export { formatPrice, formatCount, truncate } from "./utils/format.js";
+export { buildCssVariables, getCssVariableStyle } from "./utils/css.js";
+export { MOCK_TEMPLATE_PROPS, createMockTemplateProps, } from "./mock/data.js";
+export declare const SDK_VERSION = "0.1.0";
+//# sourceMappingURL=index.d.ts.map
