@@ -4,5 +4,7 @@ export { DEFAULT_CONFIG } from "./types/config.js";
 export { formatPrice, formatCount, truncate } from "./utils/format.js";
 export { buildCssVariables, getCssVariableStyle } from "./utils/css.js";
 export { MOCK_TEMPLATE_PROPS, createMockTemplateProps, } from "./mock/data.js";
+export type { ComponentMeta, ComponentCategory, PageContextType, ComponentImport, } from "./types/component.js";
+export { defineMeta } from "./types/component.js";
 export declare const SDK_VERSION = "0.1.0";
 //# sourceMappingURL=index.d.ts.map

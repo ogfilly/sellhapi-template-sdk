@@ -27,5 +27,15 @@ export {
   createMockTemplateProps,
 } from "./mock/data.js";
 
+// Component metadata — for annotating template components
+export type {
+  ComponentMeta,
+  ComponentCategory,
+  PageContextType,
+  ComponentImport,
+} from "./types/component.js";
+
+export { defineMeta } from "./types/component.js";
+
 // SDK version — templates declare which version they were built against
 export const SDK_VERSION = "0.1.0";
