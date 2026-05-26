@@ -57,6 +57,7 @@ export interface TemplateProps {
         description: string | null;
         logoUrl: string | null;
         bannerUrl: string | null;
+        bannerPosition: "top" | "center" | "bottom";
         email: string | null;
         phone: string | null;
         address: string | null;

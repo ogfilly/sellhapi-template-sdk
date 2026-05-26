@@ -58,6 +58,7 @@ export function createMockTemplateProps(
       description:    "Contemporary Nigerian fashion for the modern woman.",
       logoUrl:        null,
       bannerUrl:      null,
+      bannerPosition: "center",
       email:          "hello@amaralagos.com",
       phone:          "+234 801 234 5678",
       address:        "Victoria Island, Lagos",
