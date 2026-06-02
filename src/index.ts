@@ -37,5 +37,15 @@ export type {
 
 export { defineMeta } from "./types/component.js";
 
+// Capability types — Phase 3
+export type {
+  CapabilityId,
+  CapabilityBlock,
+  CapabilityEvent,
+  CapabilityTierLimit,
+  CapabilityPlanLimits,
+  CapabilityInfo,
+} from "./types/capability.js";
+
 // SDK version — templates declare which version they were built against
-export const SDK_VERSION = "0.1.0";
+export const SDK_VERSION = "0.2.0";

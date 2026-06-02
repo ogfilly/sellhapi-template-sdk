@@ -1,4 +1,5 @@
 import type { StorefrontConfig } from "./config.js";
+import type { CapabilityId }     from "./capability.js";
 
 // ── Store data types ──────────────────────────────────────────────────────────
 
@@ -118,6 +119,15 @@ export interface TemplateProps {
     links:         FooterLink[];
     showPoweredBy: boolean;
   };
+
+  /**
+   * Capability IDs that are active on this workspace.
+   * Use this to conditionally render capability-specific UI blocks.
+   *
+   * @example
+   *   const hasAppointments = props.activeCapabilities.includes("appointments");
+   */
+  activeCapabilities: Array<CapabilityId | string>;
 }
 
 // ── Template registry entry ───────────────────────────────────────────────────

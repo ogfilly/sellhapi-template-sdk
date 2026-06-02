@@ -124,6 +124,8 @@ export function createMockTemplateProps(
       ],
       showPoweredBy: true,
     },
+
+    activeCapabilities: [],
   };
 }
 
