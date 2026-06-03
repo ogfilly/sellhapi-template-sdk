@@ -4,12 +4,22 @@ export type {
   TemplateDefinition,
   TemplateConstraints,
   StoreProduct,
+  StoreProductVariant,
+  StoreProductDetail,
+  StorePagination,
+  PageContext,
   StoreCategory,
   StoreCollection,
   StoreSection,
   AutoBlock,
   StoreAnnouncement,
   FooterLink,
+  // Capability storefront types — SDK 0.5.0
+  StorefrontTicketType,
+  StorefrontEvent,
+  StorefrontCampaign,
+  StorefrontService,
+  StorefrontMembershipTier,
 } from "./types/template.js";
 
 export type { StorefrontConfig } from "./types/config.js";
@@ -44,8 +54,11 @@ export type {
   CapabilityEvent,
   CapabilityTierLimit,
   CapabilityPlanLimits,
+  CapabilityStorefrontPageType,
   CapabilityInfo,
 } from "./types/capability.js";
 
+export { KNOWN_CAPABILITY_IDS } from "./types/capability.js";
+
 // SDK version — templates declare which version they were built against
-export const SDK_VERSION = "0.2.0";
+export const SDK_VERSION = "0.6.0";
