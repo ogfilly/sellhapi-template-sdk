@@ -111,6 +111,7 @@ export function createMockTemplateProps(configOverrides = {}) {
             ],
             showPoweredBy: true,
         },
+        activeCapabilities: [],
     };
 }
 // Default export — ready to use out of the box
