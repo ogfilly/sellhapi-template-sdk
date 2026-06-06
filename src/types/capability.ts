@@ -20,7 +20,8 @@ export type CapabilityId =
   | "events"
   | "memberships"
   | "content"
-  | "events_tickets";
+  | "events_tickets"
+  | "forms";
 
 /**
  * Runtime-accessible array of known capability IDs.
@@ -36,6 +37,7 @@ export const KNOWN_CAPABILITY_IDS: readonly CapabilityId[] = [
   "memberships",
   "content",
   "events_tickets",
+  "forms",
 ] as const;
 
 /** Plan limits for a single tier. null means no limit applies. */
